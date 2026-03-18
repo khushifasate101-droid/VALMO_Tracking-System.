@@ -1,0 +1,123 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  margin: 0;
+}
+
+/* Header */
+.header {
+  background: #0d2b52;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+/* Card */
+.card {
+  background: white;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+/* Tracking */
+.tracking {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+.id {
+  font-weight: bold;
+}
+
+/* Status */
+.status {
+  color: gray;
+}
+
+/* Progress */
+.progress {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.step {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.step.active {
+  background: green;
+  color: white;
+}
+
+.line {
+  flex: 1;
+  height: 4px;
+  background: #ccc;
+}
+
+.line.active {
+  background: green;
+}
+
+/* Labels */
+.labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+/* Timeline */
+.timeline {
+  position: relative;
+  margin-left: 10px;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 10px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: green;
+}
+
+.event {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.dot {
+  width: 20px;
+  height: 20px;
+  background: green;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.event .content p {
+  margin: 0;
+}
+
+.event .content span {
+  font-size: 12px;
+  color: gray;
+}
+
+/* Footer */
+.footer {
+  background: #0d2b52;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
