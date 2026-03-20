@@ -54,11 +54,9 @@ The main objective of this project is to understand:
 
 📸 Screenshot
 
-(Add your screenshot here)
-
 Example:
 
-![Tracking UI](screenshots/your-image-name.png)
+![Tracking UI](page.png)
 
 ---
 
